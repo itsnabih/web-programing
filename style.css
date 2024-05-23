@@ -26,6 +26,53 @@ nav ul{
     align-items: center;
     gap: 1rem;
     list-style-type: none;
+    padding: 1rem
+}
+
+nav a{
+    text-decoration: none;
     color: white;
-    padding: 1.5rem;
+    transition: 0.3s;
+    padding: 2rem;
+}
+
+nav a:hover{
+    color: #003C43;
+    background-color: white;
+}
+
+main article{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+}
+
+article span{
+    padding: 3rem;
+    text-align: justify;
+}
+
+article .image{
+    text-align: center;
+}
+
+.image a{
+    text-decoration: none;
+    color: #34252F;
+}
+
+main article img{
+    width: 70%;
+}
+
+.pengenalanText h1{
+    font-size: 5rem;
+    margin: 2rem 0rem;
+    color: #34252F;
+}
+
+.pengenalanText p{
+    font-size: 2rem;
+    color: #BC2C1A;
 }
