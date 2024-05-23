@@ -50,7 +50,7 @@ main article{
 
 article span{
     padding: 3rem;
-    text-align: justify;
+    text-align: left;
 }
 
 article .image{
@@ -75,4 +75,14 @@ main article img{
 .pengenalanText p{
     font-size: 2rem;
     color: #BC2C1A;
+}
+
+.definitionText h1{
+    font-size: 3rem;
+}
+
+.definitionText p{
+    text-align: justify;
+    font-size: 1.5rem;
+    margin: 1.5rem 0rem;
 }
