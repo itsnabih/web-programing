@@ -57,6 +57,13 @@ article .image{
     text-align: center;
 }
 
+article li{
+    font-size: 1.5rem;
+}
+
+.tips img{
+    width: 30rem;
+}
 .image a{
     text-decoration: none;
     color: #34252F;
@@ -69,20 +76,59 @@ main article img{
 .pengenalanText h1{
     font-size: 5rem;
     margin: 2rem 0rem;
-    color: #34252F;
 }
 
 .pengenalanText p{
     font-size: 2rem;
-    color: #BC2C1A;
 }
 
-.definitionText h1{
+.definitionText h1, .urgensiText h1, .tipsText h1{
     font-size: 3rem;
 }
 
-.definitionText p{
+.definitionText p, .urgensiText p, .tipsText p{
     text-align: justify;
     font-size: 1.5rem;
     margin: 1.5rem 0rem;
+}
+
+.cases{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caseText h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.caseText p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+iframe{
+    text-align: center;
+    width: 70rem;
+    height: 20rem;
+    margin: 2rem 0rem;
+    border: none;
+}
+
+
+
+.closing h1{
+    font-size: 3rem;
+}
+.closing{
+    text-align: center;
+    margin: 2rem;
+}
+
+.closing>span{
+    width: 100%;
+    text-align: center;
 }
